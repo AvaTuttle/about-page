@@ -1,0 +1,116 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+h1,h2,h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+/*utilities*/
+.container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-read{
+    background-color: black;
+    color: white;
+    
+}
+.btn-info{
+    background-color: rgb(167, 74, 8);
+    color: white;
+    
+}
+/*header*/
+header{
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: wheat;
+}
+
+/*menu nav*/
+.nav-menu-bar{
+    display: flex;
+    justify-content: space-around;
+}
+.menu a{
+    color: wheat;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+    background-size: auto;
+    height:80px;
+    color: wheat;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    justify-content: align-center;
+}
+.footer-menu-bar{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer-menu a{
+    color: wheat;
+    text-decoration: none;
+    margin-right: 20px;
+    }
+.btn-abt{
+    color: wheat;
+}
+
+
+/*main*/
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+.our-blog-container{
+    width: 65%;
+}
+.our-course-container{
+    width: 35%;
+    margin-left: 20px;
+}
+
+
+/*blog*/
+.blog-item{
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.course-item{
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
